@@ -127,6 +127,9 @@ PRODUCT_PACKAGES += \
     gralloc.qcom \
     hwcomposer.qcom
 
+# Dolby Audio
+$(call inherit-product, hardware/dolby/dolby.mk)
+
 PRODUCT_PACKAGES += \
     disable_configstore
 
